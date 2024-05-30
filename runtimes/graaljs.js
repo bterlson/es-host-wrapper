@@ -17,7 +17,7 @@ $262.setGlobal = function(name, value) {
   this.global[name] = value;
 };
 $262.destroy = function () { /* noop */ };
-$262.IsHTMLDDA = function() { return {}; };
+$262.IsHTMLDDA = {};
 $262.source = $SOURCE;
 
 $262.evalScript = function(code) {

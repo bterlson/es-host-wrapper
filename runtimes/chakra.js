@@ -40,7 +40,7 @@ var $262 = {
     this.global[name] = value;
   },
   destroy() { /* noop */ },
-  IsHTMLDDA() { return {}; },
+  IsHTMLDDA: {},
   source: $SOURCE,
   agent: (function() {
     const isAgentSupportable = WScript.Broadcast && WScript.ReceiveBroadcast &&

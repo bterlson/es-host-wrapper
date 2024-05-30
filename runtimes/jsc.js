@@ -51,5 +51,5 @@ $262.createRealm = function (options = {}) {
 
 
 if (!$262.IsHTMLDDA) {
-  $262.IsHTMLDDA = function() { return {}; };
+  $262.IsHTMLDDA = {};
 }

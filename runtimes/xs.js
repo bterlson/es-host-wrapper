@@ -37,7 +37,7 @@ if (!$262) {
     })(),
   };
 }
-$262.IsHTMLDDA = function() {};
+$262.IsHTMLDDA = {};
 $262.destroy = function() {};
 $262.getGlobal = function(name) {
   return this.global[name];

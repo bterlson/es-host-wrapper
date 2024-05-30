@@ -16,7 +16,7 @@ var $262 = {
     this.global[name] = value;
   },
   destroy() { /* noop */ },
-  IsHTMLDDA() { return {}; },
+  IsHTMLDDA: {},
   source: $SOURCE,
   get agent() {
     throw new Test262Error('agent.* not yet supported.');

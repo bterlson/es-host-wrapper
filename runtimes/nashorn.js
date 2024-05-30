@@ -37,7 +37,7 @@ var $262 = {
     this.global[name] = value;
   },
   destroy: function() { /* noop */ },
-  IsHTMLDDA: function() { return {}; },
+  IsHTMLDDA: {},
   source: $SOURCE,
   agent: (function() {
     function thrower() {
